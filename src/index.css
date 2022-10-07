@@ -1,0 +1,37 @@
+:root {
+  --bg-dark-mode: #1f2937;
+  --text-white: white;
+  --text-dark-mode-green: #ADF86; 
+  --text-black: #2B283A; 
+  --text-light-mode-green: #10B981;
+  --text-light-mode-green-hover: #0d9b6c;
+  --text-medium-gray: #D5D4D8;
+  --input-bg-dark: #273549;
+}
+
+body {
+  font: 100%/1.5 'Karla', sans-serif;
+  background-color: var(--bg-dark-mode);
+  padding-top: 55px;
+  padding-inline: 30px;
+  margin: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  gap: .5rem;
+}
